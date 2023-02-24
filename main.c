@@ -39,7 +39,7 @@ int main(int argc , char **argv) {
           
           }
         else {
-          if(atoi(argv[i])>3 && 1< atoi(argv[i])) {
+          if(atoi(argv[i])>3 || 1> atoi(argv[i])) {
            printf("No Food Please choose again\n\n");
             i++; goto a;
             }
